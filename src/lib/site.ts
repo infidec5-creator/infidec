@@ -60,7 +60,7 @@ export const nav = [
   { label: "Services", href: "/services" },
   { label: "Industries", href: "/industries" },
   { label: "Case studies", href: "/case-studies" },
-  { label: "Marketplace", href: "https://marketplace.elaynetech.com/" },
+  { label: "Marketplace", href: "https://marketplace.infidec.com" },
   { label: "About", href: "/about" },
   { label: "Insights", href: "/blog" },
 ] as const;

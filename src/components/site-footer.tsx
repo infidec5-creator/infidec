@@ -11,7 +11,7 @@ const company = [
   { label: "Engagement models", href: "/engagement-models" },
   { label: "Hire developers", href: "/hire-developers" },
   { label: "Case studies", href: "/case-studies" },
-  { label: "Marketplace", href: "https://marketplace.elaynetech.com/" },
+  { label: "Marketplace", href: "https://marketplace.infidec.com" },
   { label: "Technologies", href: "/technologies" },
   { label: "Careers", href: "/careers" },
   { label: "Insights", href: "/blog" },

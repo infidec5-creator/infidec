@@ -228,7 +228,7 @@ export default function Home() {
             </p>
             <div className="relative z-10 mt-8 flex flex-wrap gap-3">
               <Link
-                href="https://marketplace.elaynetech.com/"
+                href="https://marketplace.infidec.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 prefetch={false}
