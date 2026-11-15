@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
   experimental: {
     // Inline the (small, Tailwind) stylesheet into the HTML: removes the render-blocking CSS request
     inlineCss: true,
+    turbopackPluginRuntimeStrategy: "workerThreads",
   },
   images: {
     formats: ["image/avif", "image/webp"],
@@ -26,7 +27,6 @@ const nextConfig: NextConfig = {
     rules: {
       "*.css": {
         loaders: ["@tailwindcss/turbopack"],
-        as: "*.css",
       },
     },
   },
